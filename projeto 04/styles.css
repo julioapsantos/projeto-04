@@ -1,0 +1,101 @@
+/* Reset básico */
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+ 
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #000000;
+    line-height: 1.6;
+    background-image: url('capa.jpeg');
+    background-size: cover; /* A imagem cobre a tela inteira */
+    background-repeat: no-repeat; /* A imagem não repete */
+    background-attachment: fixed; /* A imagem permanece fixa ao rolar a página */
+    background-position: center; /* Centraliza a imagem */
+    /* Define o texto para branco */
+}
+
+header {
+    background-color: #000000;
+    padding: 1em;
+    text-align: center;
+    display: block;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #ff6600;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    list-style: none;
+}
+
+nav a {
+    color: #b41313;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+
+    text-align: center;
+    padding: 2px 1px;
+    color: #c40f0f;
+}
+
+.intro{
+    font-size: 10px;
+    height: 250px;
+    text-align: center;
+    color: #b31010;
+}
+
+section {
+    padding: 10px;
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
+    background-color: #be5006;
+    color: #000000;
+}
+
+#discografia .album {
+    color: #000000;
+    display: flex;
+    text-align: center;
+    height: 150px;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+.album2 {
+    display: flex;
+    text-align: center;
+    height: 150px;
+    gap: 1em;
+    margin-bottom: 1em;
+    color: #000000;
+}
+
+#galeria .fotos {
+    display: grid;
+    gap: 1px;
+    color: #000000;
+    
+}
+
+footer {
+    background-color: #000000;
+    padding: 1em;
+    text-align: center;
+    color:#c40f0f;
+}
